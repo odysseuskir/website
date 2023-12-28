@@ -97,3 +97,9 @@ body {
     display: inline-block;
     vertical-align: middle;
 }
+
+footer {
+    background-color: #6b736f;
+    padding: 10px 20px;
+    text-align: center;
+}
