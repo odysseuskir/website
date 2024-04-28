@@ -1,105 +1,23 @@
 body {
-    font-family: 'Ubuntu', sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 5px;
+    background-color: #171717;
     color: white;
 }
 
-#banner {
-    background-color: #22BF90;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 10px 20px;
+a {
+    color: deepskyblue;
 }
 
-#about-me {
-    padding: 20px;
-    background-color: #007EA7;
+footer {
+    text-align: center;
 }
 
-#tldr img {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px; /* Adjust this margin as needed */
-}
-
-#tldr p {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-
-#work-experience {
-    padding: 20px;
-    background-color: #6D03DD;
-}
-
-#education {
-    padding: 20px;
-    background-color: #FF8B1F;
-}
-
-#volunteering {
-    padding: 20px;
-    background-color: #1E3050;
-}
-
-#projects {
-    padding: 20px;
-    background-color: #9A5BEC;
-}
-
-#awards {
-    padding: 20px;
-    background-color: #00CCBB;
-}
-
-#contact-me {
-    padding: 20px;
-    background-color: #6DAE47;
-}
-
-#work-experience img,
-#volunteering img {
+#projects img {
     float: left;
     margin-right: 10px;
 }
 
-#work-experience h3,
-#volunteering h3 {
-    overflow: hidden;
-}
-
-#about-me {
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 20px;
-    background-color: #007EA7;
-}
-
-#main-body {
-    flex: 1;
-}
-
-#tldr {
-    width: 30%;
-    padding: 10px;
-}
-
-#tldr img {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;
-}
-
-#tldr p {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-footer {
-    background-color: #6b736f;
-    padding: 10px 20px;
-    text-align: center;
+hr.solid {
+    border-top: 3px solid #bbb;
 }
