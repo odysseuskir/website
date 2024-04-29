@@ -21,3 +21,32 @@ footer {
 hr.solid {
     border-top: 3px solid #bbb;
 }
+
+.webring-anchor {
+    font-size: 24px;
+    color: rgba(132, 146, 166, .8);
+    text-decoration: none;
+    transition: color .5s;
+    padding: 10px;
+}
+
+.webring-anchor + .webring-anchor {
+    margin-left: 10px;
+}
+
+.webring-anchor:hover {
+    color: #8492a6;
+    text-decoration: none;
+}
+
+.webring-logo {
+    background-image: url('https://assets.hackclub.com/icon-rounded.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 48px;
+    height: 48px;
+    margin: 0 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
