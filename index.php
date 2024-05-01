@@ -23,7 +23,7 @@
 
     // Function to get the country based on IP address
     function getCountryFromIP($ip) {
-        $url = 'https://api.ipgeolocation.io/ipgeo?apiKey=YOUR_API_KEY&ip=' . $ip;
+        $url = 'https://api.ipgeolocation.io/ipgeo?apiKey=a86bd4a872e64a38bcbf3e4e1420d3d7&ip=' . $ip;
         $data = file_get_contents($url);
         $result = json_decode($data, true);
         return $result['country_code2'];
