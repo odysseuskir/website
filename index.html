@@ -13,8 +13,9 @@
   <title>Odysseus Abraham Kirikopoulos</title>
 
   <script>
-    let userLang = navigator.language || navigator.userLanguage;
-    if (userLang === "el" || userLang === "el-GR" || userLang === "el-CY") {
+    var userLang = navigator.language || navigator.userLanguage;
+
+    if (userLang.toLowerCase() === "el" || userLang.toLowerCase() === "el-gr" || userLang.toLowerCase() === "el-cy") {
       window.location.href = "greek.html";
     }
   </script>
