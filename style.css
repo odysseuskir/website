@@ -60,3 +60,13 @@ hr.solid {
     display: inline-block;
     vertical-align: middle;
 }
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container img, #webring-wrapper {
+  margin: 0 5px;
+}
