@@ -5,11 +5,13 @@
     <head>
 
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="theme-color" content="#171717">
 
         <link rel="stylesheet" href="style.css">
-        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" as="font" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
         <title>Odysseus Abraham Kirikopoulos</title>
 
@@ -17,13 +19,12 @@
 
     <body>
 
-        <a href="#education">Education</a>
-        |
-        <a href="#projects">Projects</a>
-        |
-        <a href="#awards">Awards</a>
-        |
-        <a href="#contact-me">Contact information</a>
+        <nav>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#awards">Awards</a>
+            <a href="#contact-me">Contact</a>
+        </nav>
 
         <h1>Odysseus Abraham Kirikopoulos</h1>
 
@@ -34,19 +35,16 @@
             <h2>Education</h2>
 
             <h3>1st General Lyceum of Epanomi</h3>
-            <h4>High School Diploma, Economics & Computer Science</h4>
-            <h5>September 2023—June 2026</h5>
+            <h4>High School Diploma, Economics &amp; Computer Science</h4>
+            <time>September 2023—June 2026</time>
 
             <p>
-                
                 Grade: 19.7/20 (1st Term, 12th Grade)
-
                 <br><br>
                 Attending the Economics and Computer Science curriculum.
-                During my time here, I’ve deepened my interest in programming, 
+                During my time here, I've deepened my interest in programming,
                 contributed to nonprofit organizations, and engaged in national and international activities.
                 Led independent Computer Science Club, Member of Rhetoric Society, and Member of the Student Election Supervisory Committee.
-
             </p>
 
         </div>
@@ -57,54 +55,58 @@
 
             <h2>Projects</h2>
 
-            <img src="media/simplified_coding.webp" width="100" height="100" alt="Simplified Coding logo">
-
-            <h3>Co-founder & Core Contributor</h3>
-            <h4>Simplified Coding</h4>
-            <h5>September 2022—Present</h5>
-
-            <p>
-                Co-founded Simplified Coding, a Greek non-profit launched in September 2022 
-                with the mission to make programming accessible and enjoyable through free, ad-free resources. 
-                I lead course development, oversee data protection compliance, 
-                and manage the project’s financial and legal sustainability to ensure continuous growth and quality education.
-            
-            </p>
-
-            <hr>
-
-            <img src="media/eyp.webp" width="100" height="100" alt="European Youth Parliament logo">
-
-            <h3>Member</h3>
-            <h4>European Youth Parliament</h4>
-            <h5>December 2023—Present</h5>
-
-            <p>
-                Active member of the European Youth Parliament, 
-                representing Greece as delegate to the Committees on 
-                Employment and Social Affairs (46th National Conference, Greece), 
-                Artificial Intelligence in a Digital Age (24th National Conference, Netherlands), 
-                and Civil Liberties, Justice, and Home Affairs (8th International Forum, Greece). 
-                Served on the organizing teams of the 48th and 49th National Conferences in Greece, 
-                overseeing food and material management, and acted as Head of Material at the 49th Conference.                
-            </p>
+            <div class="project-entry">
+                <img src="media/simplified_coding.webp" width="100" height="100" alt="Simplified Coding logo">
+                <div>
+                    <h3>Co-founder &amp; Core Contributor</h3>
+                    <h4>Simplified Coding</h4>
+                    <time>September 2022—Present</time>
+                    <p>
+                        Co-founded Simplified Coding, a Greek non-profit launched in September 2022
+                        with the mission to make programming accessible and enjoyable through free, ad-free resources.
+                        I lead course development, oversee data protection compliance,
+                        and manage the project's financial and legal sustainability to ensure continuous growth and quality education.
+                    </p>
+                </div>
+            </div>
 
             <hr>
 
-            <img src="media/schoolhouse.webp" width="100" height="100" alt="Schoolhouse logo">
+            <div class="project-entry">
+                <img src="media/eyp.webp" width="100" height="100" alt="European Youth Parliament logo">
+                <div>
+                    <h3>Member</h3>
+                    <h4>European Youth Parliament</h4>
+                    <time>December 2023—Present</time>
+                    <p>
+                        Active member of the European Youth Parliament,
+                        representing Greece as delegate to the Committees on
+                        Employment and Social Affairs (46th National Conference, Greece),
+                        Artificial Intelligence in a Digital Age (24th National Conference, Netherlands),
+                        and Civil Liberties, Justice, and Home Affairs (8th International Forum, Greece).
+                        Served on the organizing teams of the 48th and 49th National Conferences in Greece,
+                        overseeing food and material management, and acted as Head of Material at the 49th Conference.
+                    </p>
+                </div>
+            </div>
 
-            <h3>Computer Science Tutor</h3>
-            <h4>Schoolhouse</h4>
-            <h5>April 2023—April 2025</h5>
+            <hr>
 
-            <p>
-                As a volunteer tutor at Schoolhouse, 
-                I supported 66 students from 24 countries over 38 hours and 50 sessions, 
-                helping them build confidence and deepen their understanding of Computer Science. 
-                My work received 128 positive ratings, 
-                reflecting the trust and appreciation of the learners I guided.
-
-            </p>
+            <div class="project-entry">
+                <img src="media/schoolhouse.webp" width="100" height="100" alt="Schoolhouse logo">
+                <div>
+                    <h3>Computer Science Tutor</h3>
+                    <h4>Schoolhouse</h4>
+                    <time>April 2023—April 2025</time>
+                    <p>
+                        As a volunteer tutor at Schoolhouse,
+                        I supported 66 students from 24 countries over 38 hours and 50 sessions,
+                        helping them build confidence and deepen their understanding of Computer Science.
+                        My work received 128 positive ratings,
+                        reflecting the trust and appreciation of the learners I guided.
+                    </p>
+                </div>
+            </div>
 
         </div>
 
@@ -112,72 +114,93 @@
 
         <div id="awards">
 
-            <h2>Awards & Participations</h2>
+            <h2>Awards &amp; Participations</h2>
 
-            <h3>8th International Forum of the European Youth Parliament Greece</h3>
-            <h4>Delegate (Greek delegation) to the Committee on Civil Liberties, Justice, and Home Affairs</h4>
-            <h5>July 2025</h5>
-
-            <hr>
-
-
-            <h3>49th National Selection Conference of the European Youth Parliament Greece</h3>
-            <h4>Organizer responsible for food and material; Head of Material</h4>
-            <h5>April 2025</h5>
+            <div class="award-entry">
+                <h3>8th International Forum of the European Youth Parliament Greece</h3>
+                <h4>Delegate (Greek delegation) to the Committee on Civil Liberties, Justice, and Home Affairs</h4>
+                <time>July 2025</time>
+            </div>
 
             <hr>
 
-            <h3>5th Hellenic Economic Olympiad</h3>
-            <h4>First place in the school round</h4>
-            <h5>March 2025</h5>
+            <div class="award-entry">
+                <h3>49th National Selection Conference of the European Youth Parliament Greece</h3>
+                <h4>Organizer responsible for food and material; Head of Material</h4>
+                <time>April 2025</time>
+            </div>
 
             <hr>
 
-            <h3>48th National Selection Conference of the European Youth Parliament Greece</h3>
-            <h4>Organizer responsible for food and material</h4>
-            <h5>December 2024</h5>
+            <div class="award-entry">
+                <h3>5th Hellenic Economic Olympiad</h3>
+                <h4>First place in the school round</h4>
+                <time>March 2025</time>
+            </div>
 
             <hr>
 
-            <h3>24th National Selection Conference of the European Youth Parliament the Netherlands</h3>
-            <h4>Delegate (Greek delegation) to the Committee on Artificial Intelligence in a Digital Age</h4>
-            <h5>May 2024</h5>
+            <div class="award-entry">
+                <h3>48th National Selection Conference of the European Youth Parliament Greece</h3>
+                <h4>Organizer responsible for food and material</h4>
+                <time>December 2024</time>
+            </div>
 
             <hr>
 
-            <h3>Municipality Honors</h3>
-            <h4>Honors for performance in Educational Robotics & STEM society</h4>
-            <h5>April 2024</h5>
+            <div class="award-entry">
+                <h3>24th National Selection Conference of the European Youth Parliament the Netherlands</h3>
+                <h4>Delegate (Greek delegation) to the Committee on Artificial Intelligence in a Digital Age</h4>
+                <time>May 2024</time>
+            </div>
 
             <hr>
 
-            <h3>36th Hellenic Computing Olympiad</h3>
-            <h4>Passed first phase</h4>
-            <h5>February 2024</h5>
+            <div class="award-entry">
+                <h3>Municipality Honors</h3>
+                <h4>Honors for performance in Educational Robotics &amp; STEM society</h4>
+                <time>April 2024</time>
+            </div>
 
             <hr>
 
-            <h3>46th National Selection Conference of the European Youth Parliament Greece</h3>
-            <h4>Delegate to the Committee on Employment and Social Affairs</h4>
-            <h5>December 2023</h5>
+            <div class="award-entry">
+                <h3>36th Hellenic Computing Olympiad</h3>
+                <h4>Passed first phase</h4>
+                <time>February 2024</time>
+            </div>
 
             <hr>
 
-            <h3>Code Week Hackathon 2023</h3>
-            <h4>3rd Place</h4>
-            <h5>October 2023</h5>
+            <div class="award-entry">
+                <h3>46th National Selection Conference of the European Youth Parliament Greece</h3>
+                <h4>Delegate to the Committee on Employment and Social Affairs</h4>
+                <time>December 2023</time>
+            </div>
 
             <hr>
 
-            <h3>15th Student Conference of Informatics</h3>
-            <h4>Speaker</h4>
-            <h5>April 2023</h5>
+            <div class="award-entry">
+                <h3>Code Week Hackathon 2023</h3>
+                <h4>3rd Place</h4>
+                <time>October 2023</time>
+            </div>
 
             <hr>
 
-            <h3>Eighth Student Robotics Festival</h3>
-            <h4>First Technological Excellence Award</h4>
-            <h5>December 2022</h5>
+            <div class="award-entry">
+                <h3>15th Student Conference of Informatics</h3>
+                <h4>Speaker</h4>
+                <time>April 2023</time>
+            </div>
+
+            <hr>
+
+            <div class="award-entry">
+                <h3>Eighth Student Robotics Festival</h3>
+                <h4>First Technological Excellence Award</h4>
+                <time>December 2022</time>
+            </div>
 
         </div>
 
@@ -188,79 +211,49 @@
             <h2>Contact information</h2>
 
             <p>
-
-            <a href="media/key.asc">GPG Key</a>
-
-            <br><br>
-
-            <a href="mailto:odysseusk@proton.me" target="_blank">Email</a> <button onclick="copyEmail()">Copy address</button>
-
-            <script>
-
-                function copyEmail() {
-                const email = 'odysseusk@proton.me';
-                const tempInput = document.createElement('input');
-                tempInput.value = email;
-                document.body.appendChild(tempInput);
-                tempInput.select();
-                tempInput.setSelectionRange(0, 99999);
-                document.execCommand('copy');
-                document.body.removeChild(tempInput);
-                alert("Email copied to clipboard");
-                }
-
-            </script>
-
-            <br><br>
-
-            <a href="https://bsky.app/profile/odysseusk.dev" target="_blank">Bluesky</a>
-
-            <br><br>
-
-            <a href="https://www.linkedin.com/in/odysseuskir" target="_blank">LinkedIn</a>
-            
-            <br><br>
-
-            <a href="https://github.com/odysseuskir" target="_blank">GitHub</a>
-
+                <a href="media/key.asc">GPG Key</a>
+                <br><br>
+                <a href="mailto:odysseusk@proton.me" target="_blank">Email</a>
+                <button onclick="copyEmail()">Copy address</button>
+                <br><br>
+                <a href="https://bsky.app/profile/odysseusk.dev" target="_blank">Bluesky</a>
+                <br><br>
+                <a href="https://www.linkedin.com/in/odysseuskir" target="_blank">LinkedIn</a>
+                <br><br>
+                <a href="https://github.com/odysseuskir" target="_blank">GitHub</a>
             </p>
 
         </div>
 
-    </body>
+        <hr class="solid">
 
-    <hr class="solid">
+        <footer>
+            <p>
+                <a href="https://odysseusk.dev">odysseusk.dev</a> — personal website of Odysseus Abraham Kirikopoulos.
+                <br><br>
+                Public domain dedication — <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>.
+                Moral right to attribution retained. No warranties.
+            </p>
+            <div class="footer-badges">
+                <a href="https://creativecommons.org/publicdomain/zero/1.0/" title="CC0 1.0 Universal">
+                    <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="Creative Commons" width="28" height="28">
+                    <img src="https://mirrors.creativecommons.org/presskit/icons/zero.svg" alt="CC0" width="28" height="28">
+                </a>
+                <a href="https://www.thegreenwebfoundation.org/green-web-check/?url=odysseusk.dev" title="Green hosted">
+                    <img src="media/greenwebfoundation.webp" width="120" height="57" alt="This website is hosted green">
+                </a>
+            </div>
+        </footer>
 
-    <footer>
-
-        <p>
-            <a href="https://odysseusk.dev">odysseusk.dev</a> is a personal website created by Odysseus Abraham Kirikopoulos.
-            
-            <br><br>
-
-            Odysseus Abraham Kirikopoulos - Only moral rights reserved - Public domain dedication.
-
-            <br><br>
-
-            This website is on the public domain, licensed under CC0 1.0 Universal.
-            The creator, Odysseus Abraham Kirikopoulos, waives all copyright and related rights to the extent possible under law,
-            but retains the moral right to be recognized as the author of the work.
-            The creator makes NO WARRANTIES regarding the work.
-        </p>
-
-        <div class="image-container">
-
-            <a href="https://creativecommons.org/"><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="Creative Commons" style="max-width: 10em;max-height:10em;margin-left: .2em;"></a>
-            
-            <a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="https://mirrors.creativecommons.org/presskit/icons/zero.svg" alt="CC0 1.0 Universal" style="max-width: 10em;max-height:10em;margin-left: .2em;"></a>
-            
-            <a href="https://www.thegreenwebfoundation.org/green-web-check/?url=odysseusk.dev"><img src="media/greenwebfoundation.webp" width="200" height="95" alt="This website runs on green hosting - verified by thegreenwebfoundation.org"></a>
-            
-            <a href="https://notbyai.fyi/" target="_blank"><img src="media/notbyai.webp" width="131" height="42" alt="Produced by human; not by AI"></a>
-        
-        </div>
-
-    </footer>
+        <script>
+            function copyEmail() {
+                navigator.clipboard.writeText('odysseusk@proton.me').then(() => {
+                    alert('Email copied to clipboard');
+                }).catch(() => {
+                    alert('Could not copy email');
+                });
+            }
+        </script>
 
     </body>
 
