@@ -24,14 +24,6 @@ body {
     line-height: 1.7;
 }
 
-/* Navigation */
-nav {
-    display: flex;
-    gap: 1.5rem;
-    margin-bottom: 2rem;
-    font-size: 0.9rem;
-}
-
 /* Links */
 a, a:visited {
     color: var(--accent);
@@ -166,11 +158,6 @@ footer a:hover {
 @media (max-width: 600px) {
     body {
         padding: 1.5rem 1rem 3rem;
-    }
-
-    nav {
-        gap: 1rem;
-        flex-wrap: wrap;
     }
 
     .project-entry {
